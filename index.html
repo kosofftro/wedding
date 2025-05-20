@@ -7,10 +7,19 @@
   <style>
     body {
       font-family: 'Yu Mincho', 'Hiragino Mincho ProN', serif;
-      background: url('https://www.bestbridal.co.jp/guestparty/wp-content/uploads/2023/11/%E4%BC%8A%E5%8B%A2%E5%B1%B1%EF%BC%BF%E3%83%88%E3%83%83%E3%83%95%E3%82%9A%E3%82%B9%E3%83%A9%E3%82%A4%E3%82%BF%E3%82%99%E3%83%BC%E5%A4%96%E8%A6%B3.jpg') no-repeat center center fixed;
-      background-size: cover;
+      background-color: #f8f8f8;
+      background-image: url('https://www.bestbridal.co.jp/guestparty/wp-content/uploads/2023/11/%E4%BC%8A%E5%8B%A2%E5%B1%B1%EF%BC%BF%E3%83%88%E3%83%83%E3%83%95%E3%82%9A%E3%82%B9%E3%83%A9%E3%82%A4%E3%82%BF%E3%82%99%E3%83%BC%E5%A4%96%E8%A6%B3.jpg');
+      background-repeat: no-repeat;
+      background-position: center top;
+      background-size: 100% auto;
       margin: 0;
       color: #4B2E2E;
+    }
+    @media (max-width: 768px) {
+      body {
+        background-size: cover;
+        background-attachment: scroll;
+      }
     }
     .overlay {
       background-color: rgba(255, 255, 255, 0.85);
